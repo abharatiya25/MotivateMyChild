@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A750E2562ABB69E4001D9202 /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750E2552ABB69E4001D9202 /* TaskData.swift */; };
+		A750E2582ABB6A24001D9202 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750E2572ABB6A24001D9202 /* Task.swift */; };
 		A7B1A8CC2AB20EE6000C89B7 /* MotivateMyChildApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1A8CB2AB20EE6000C89B7 /* MotivateMyChildApp.swift */; };
 		A7B1A8CE2AB20EE6000C89B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1A8CD2AB20EE6000C89B7 /* ContentView.swift */; };
 		A7B1A8D02AB20EE7000C89B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B1A8CF2AB20EE7000C89B7 /* Assets.xcassets */; };
 		A7B1A8D42AB20EE7000C89B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B1A8D32AB20EE7000C89B7 /* Preview Assets.xcassets */; };
 		A7B1A8DB2AB21676000C89B7 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1A8DA2AB21676000C89B7 /* AddTaskView.swift */; };
-		A7B1A8DD2AB224A5000C89B7 /* SaveTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1A8DC2AB224A5000C89B7 /* SaveTask.swift */; };
 		A7B1A8DF2AB22AD7000C89B7 /* TaskDetailsPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1A8DE2AB22AD7000C89B7 /* TaskDetailsPopUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A750E2552ABB69E4001D9202 /* TaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
+		A750E2572ABB6A24001D9202 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		A7B1A8C82AB20EE6000C89B7 /* MotivateMyChild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotivateMyChild.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B1A8CB2AB20EE6000C89B7 /* MotivateMyChildApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivateMyChildApp.swift; sourceTree = "<group>"; };
 		A7B1A8CD2AB20EE6000C89B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,7 +27,6 @@
 		A7B1A8D12AB20EE7000C89B7 /* MotivateMyChild.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MotivateMyChild.entitlements; sourceTree = "<group>"; };
 		A7B1A8D32AB20EE7000C89B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A7B1A8DA2AB21676000C89B7 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
-		A7B1A8DC2AB224A5000C89B7 /* SaveTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTask.swift; sourceTree = "<group>"; };
 		A7B1A8DE2AB22AD7000C89B7 /* TaskDetailsPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsPopUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,13 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				A7B1A8DE2AB22AD7000C89B7 /* TaskDetailsPopUpView.swift */,
-				A7B1A8DC2AB224A5000C89B7 /* SaveTask.swift */,
 				A7B1A8CB2AB20EE6000C89B7 /* MotivateMyChildApp.swift */,
 				A7B1A8CD2AB20EE6000C89B7 /* ContentView.swift */,
 				A7B1A8CF2AB20EE7000C89B7 /* Assets.xcassets */,
 				A7B1A8D12AB20EE7000C89B7 /* MotivateMyChild.entitlements */,
 				A7B1A8D22AB20EE7000C89B7 /* Preview Content */,
 				A7B1A8DA2AB21676000C89B7 /* AddTaskView.swift */,
+				A750E2552ABB69E4001D9202 /* TaskData.swift */,
+				A750E2572ABB6A24001D9202 /* Task.swift */,
 			);
 			path = MotivateMyChild;
 			sourceTree = "<group>";
@@ -152,7 +155,8 @@
 				A7B1A8CE2AB20EE6000C89B7 /* ContentView.swift in Sources */,
 				A7B1A8DF2AB22AD7000C89B7 /* TaskDetailsPopUpView.swift in Sources */,
 				A7B1A8CC2AB20EE6000C89B7 /* MotivateMyChildApp.swift in Sources */,
-				A7B1A8DD2AB224A5000C89B7 /* SaveTask.swift in Sources */,
+				A750E2582ABB6A24001D9202 /* Task.swift in Sources */,
+				A750E2562ABB69E4001D9202 /* TaskData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
